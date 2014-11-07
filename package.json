@@ -2,7 +2,7 @@
   "name": "showdown-furigana-extension",
   "version": "1.0.1",
   "description": "Furigana support extension for showdown",
-  "main": "index.js",
+  "main": "lib/furigana.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
