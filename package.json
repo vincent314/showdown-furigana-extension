@@ -1,6 +1,6 @@
 {
   "name": "showdown-furigana-extension",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Furigana support extension for showdown",
   "main": "lib/furigana.js",
   "scripts": {
