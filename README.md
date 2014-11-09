@@ -3,6 +3,19 @@ showdown-furigana-extension
 
 [Furigana](http://en.wikipedia.org/wiki/Furigana) support extension for [showdown](https://github.com/showdownjs/showdown).
 
+
+Usage
+------
+
+Install [Showdown](https://github.com/showdownjs/showdown).
+
+Install extension node module : `npm install showdown-furigana-extension --save`
+
+    var furigana = require('showdown-furigana-extension');
+
+    var showdown = new Showdown.converter({extensions:[furigana]});
+    var html = showdown.makeHtml(src);
+
 How to write furigana with showdown-furigana-extension
 -------------
 
@@ -24,16 +37,3 @@ And should look like this in your final document : <ruby><rb>福</rb><rp>（</rp
 If, instead of this, you see hiragana between parentheses, it means your browser (ie. Firefox) does not support the *ruby* tag. To solve this problem, you can install an extension such as **HTML Ruby**.
 
 If you get small hiragana above your kanji, \o/ you are done.
-
-
-Usage
-------
-
-Install [Showdown](https://github.com/showdownjs/showdown).
-
-Install extension node module : `npm install showdown-furigana-extension --save`
-
-    var furigana = require('showdown-furigana-extension');
-
-    var showdown = new Showdown.converter({extensions:[furigana]});
-    var html = showdown.makeHtml(src);
